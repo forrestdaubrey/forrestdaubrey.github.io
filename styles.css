@@ -12,8 +12,30 @@ h2{
 	color: white;
 }
 
-p{
+a:link{
 	color: white;
-	font-family: Garamond;
-	font-size: 30px;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited{
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover{
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:active{
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+p{
+	
 }
