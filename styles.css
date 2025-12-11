@@ -2,6 +2,8 @@ body {
 	background-color: black;
     margin: 0; /* It's good practice to reset default body margins */
     font-family: serif;
+	color: white;
+	padding: 20px;
 }
 nav {
     background-color: black;
@@ -102,5 +104,6 @@ li a:hover {
 </ul>
 
 p{
-		
+	background color: black;
+	color: white;	
 }
