@@ -1,13 +1,30 @@
 body {
 	background-color: black;
+    margin: 0; /* It's good practice to reset default body margins */
+    font-family: sans-serif;
 }
-
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    overflow: hidden; /* Helps contain floats if you use them for links */
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: inline-block;
+}
+.main-content {
+    padding: 20px; /* Adds some space around your main text */
+    background-color: #f4f4f4;
+}
 h1{
 	text-align: center;
 	color: white;
 }
 
-h2{
+h3{
 	text-align: center;
 	color: white;
 }
@@ -57,8 +74,10 @@ li a {
 }
 
 li a:hover {
-  background-color: #111111;
+  background-color: transparent;
 }
+
+
 </style>
 </head>
 <body>
