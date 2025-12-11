@@ -4,9 +4,15 @@ First, to start building a website, I created a Github repository, making sure t
 Next, I created an html file in textmate and called it index.html. This would serve as my home page. 
 To get more of an idea of what to do, I looked at the source code for [this page](https://rdwrome.github.io/). I also looked at the source code for [this website](https://www.joshuaredman.com/) and [this website](https://www.ambroseakinmusire.com/).
 
-I wrote a head section of code to set up my website. For my next steps, I wanted to create pages for my website, as well as links to them on the home page. 
-I first used the code on [this website](https://www.joshuaredman.com/)as a model to make the lengths to the other pages, but I realized that I needed to specify where the links the other pages are.
+I wrote a head section of code to set up my website. In this section I also linked a styles.css file, which I used to style throughout the project. For my next steps, I wanted to create pages for my website, as well as links to them on the home page. 
+I first used the code on [this website](https://www.joshuaredman.com/)as a model to make the links to the other pages, but I realized that I needed to change the location of the links on my page.
 So, I ended up using a navigation menu instead. 
 
 I found how to create a navigation menu from [this page](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_menu), and used the code from there in my own code.
 Next, I created the other pages of the website by making a html file for each page.
+I began adding content for each page, starting with the shows page by making up shows that I'll be playing soon. However, I chose to include real venues, and the real links to those venues' pages. 
+
+The next page I added content to was the Contact page. I linked an email address of mine as a contact for questions. I also made a link for my instagram, but made the link the instagram icon.
+I also added a copyright at the bottom of each page.
+
+For the Bio page, I learned how to indent the first line of a paragraph, as well as how to create a container for text. I also added an image for the bio page, which I used the <img> tag for. I did the same for the image on my Home page, and made sure to use the right dimensions.
