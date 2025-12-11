@@ -51,7 +51,9 @@ h2{
 	font-family: sans-serif;
 	line-height: 1.5;
 	text-indent: 3em;
-	
+}
+.short-line{
+	width: 50%;
 }
 h1{
 	text-align: center;
