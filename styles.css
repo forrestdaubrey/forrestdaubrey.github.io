@@ -27,7 +27,7 @@ nav a {
 	color: white;
 	padding: 20px;
 	background color: black;
-	font-family: sans-serif;
+	font-family: verdana, sans-serif;
 	line-height: 1.5;
 }
 h2{
@@ -39,7 +39,7 @@ h2{
 	padding: 0 20px;
 	color: #C4C4C4;
 	background color: black;
-	font-family: sans-serif;
+	font-family: verdana, sans-serif;
 	
 }
 .container{
