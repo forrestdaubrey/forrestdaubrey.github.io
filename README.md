@@ -16,3 +16,7 @@ The next page I added content to was the Contact page. I linked an email address
 I also added a copyright at the bottom of each page.
 
 For the Bio page, I learned how to indent the first line of a paragraph, as well as how to create a container for text. I also added an image for the bio page, which I used the <img> tag for. I did the same for the image on my Home page, and made sure to use the right dimensions.
+
+One thing that I continued to struggle with was trying to embed videos into my website. After getting pushed to the repository in Github, the videos I embeded wouldn't show up properly on the website, and wouldn't play. I tried embedding mp4 videos, ogg videos, and youtube videos using the <video> tag. When I open the html file, it plays just fine, but if I try to watch the videos from the website page in my browser, the vidoes don't show up. I did a great deal of research to try to amend this issue, but none of the methods succeeded at getting the videos played. Evnentually, I found that the videos wouldn't show up because HTML5 videos aren't supported on the browser I'm on, so I hope that on a different browser the videos may play.
+	
+Throughout the project I used the styles.css file to style the rest of the pages. I especially used the <div class> tag, and I changed fonts, font size, font color, and padding among other things to style the website how I liked. 
