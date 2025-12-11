@@ -1,10 +1,10 @@
 body {
 	background-color: black;
     margin: 0; /* It's good practice to reset default body margins */
-    font-family: sans-serif;
+    font-family: serif;
 }
 nav {
-    background-color: #333;
+    background-color: black;
     color: white;
     padding: 10px 20px;
     overflow: hidden; /* Helps contain floats if you use them for links */
@@ -17,7 +17,16 @@ nav a {
 }
 .main-content {
     padding: 20px; /* Adds some space around your main text */
-    background-color: #f4f4f4;
+    background-color: #3B3B3B;
+	color: #ADADAD;
+	text-align: center;
+}
+.main {
+	color: white;
+	padding: 20px;
+	background color: black;
+	font-family: sans-serif;
+	line-height: 1.5;
 }
 h1{
 	text-align: center;
