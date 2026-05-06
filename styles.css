@@ -4,12 +4,13 @@ body {
     font-family: serif;
 	color: white;
 	padding: 20px;
+	text-align; center;
 }
 nav {
     background-color: black;
     color: white;
     padding: 10px 20px;
-    overflow: hidden;
+    
 	position: fixed;
 	outline: 2px solid lightslategray
 	
@@ -26,9 +27,18 @@ nav a {
 	color: #ADADAD;
 	text-align: center;
 	
-	
 }
+.parallax {
+	background-image: url("Head_shot_photo copy.jpeg");
+	
+	min-height: 500px;
 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
 .main {
 	color: white;
 	padding: 20px;
