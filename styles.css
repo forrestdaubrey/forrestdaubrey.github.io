@@ -1,6 +1,6 @@
 body {
 	background-color: black;
-    margin: 0; /* It's good practice to reset default body margins */
+    margin: 0;
     font-family: serif;
 	color: white;
 	padding: 20px;
@@ -9,7 +9,10 @@ nav {
     background-color: black;
     color: white;
     padding: 10px 20px;
-    overflow: hidden; /* Helps contain floats if you use them for links */
+    overflow: hidden;
+	position: fixed;
+	outline: 2px solid lightslategray
+	
 }
 nav a {
     color: white;
@@ -18,15 +21,17 @@ nav a {
     display: inline-block;
 }
 .main-content {
-    padding: 20px; /* Adds some space around your main text */
+    padding: 20px;
     background-color: #3B3B3B;
 	color: #ADADAD;
 	text-align: center;
+	
 }
+
 .main {
 	color: white;
 	padding: 20px;
-	background color: black;
+	background-color: black;
 	font-family: verdana, sans-serif;
 	line-height: 1.5;
 }
@@ -38,7 +43,7 @@ h2{
 	margin: 0 auto;
 	padding: 0 20px;
 	color: #C4C4C4;
-	background color: black;
+	background-color: black;
 	font-family: verdana, sans-serif;
 	
 }
@@ -47,7 +52,7 @@ h2{
 	margin: 0 auto;
 	padding: 0 20px;
 	color: #C4C4C4;
-	background color: black;
+	background-color: black;
 	font-family: sans-serif;
 	line-height: 1.5;
 	text-indent: 3em;
@@ -114,13 +119,6 @@ li a:hover {
 }
 
 
-</style>
-</head>
-<body>
-
-<h2>Navigation Menu</h2>
-<p>In this example, we use CSS to style the list horizontally, to create a navigation menu:</p>
-
 <ul>
   <li><a href="#home">Home</a></li>
   <li><a href="#news">News</a></li>
@@ -128,7 +126,7 @@ li a:hover {
   <li><a href="#about">About</a></li>
 </ul>
 
-p{
-	background color: black;
+p {
+	background-color: black;
 	color: white;	
 }
